@@ -193,7 +193,6 @@ final class IntegerArray{
 
 class ArrayReader{
 
-
     public static IntegerArray readIntegerArray(InputStream input){
         Scanner sc = new Scanner(input);
         int n = sc.nextInt();
