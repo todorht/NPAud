@@ -1,4 +1,4 @@
-//package mk.ukim.finki.test;
+package mk.ukim.finki.test;
 
 import java.io.*;
 import java.util.*;
