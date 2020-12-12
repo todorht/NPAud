@@ -2,7 +2,7 @@ package aud8;
 
 import java.util.*;
 
-public class SetAndMapExample {
+public class SetExample {
 
     private static void addToSet(Set<String> set1, Set<String> set2, Set<String> set3, Set<String> set4, String text){
         set1.add(text);
