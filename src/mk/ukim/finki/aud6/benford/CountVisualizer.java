@@ -9,9 +9,9 @@ public class CountVisualizer {
 
     public CountVisualizer(int n) {
         this.n = n;
-    }
+    } // na sekoj n, kje stavi *
 
-    public void  visualizer(OutputStream outputStream, int[] counts){
+    public void  visualizerShow(OutputStream outputStream, int[] counts){
         PrintWriter pw = new PrintWriter(outputStream);
         for(Integer count: counts){
             while (count>0) {
